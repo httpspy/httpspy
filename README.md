@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @httpspy (Hunter Harrell)
+- 👋 Hi, I’m @httpspy 
 - 👀 I’m 16, a developer for anti cheats, and Unity Gmaes
 - 🌱 I’m currently learning C++
 - 💞️ I’m looking to collaborate on Hyperion Anti Cheat
