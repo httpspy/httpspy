@@ -1012,11 +1012,17 @@ funcs.syn_backup = funcs.syn
 funcs.getexecutorname = function()
     return 'Tidal', Version -- Assuming Version is defined somewhere
 end
--- Loop example
-for i = 1, 100000000000000000000000000000000 do -- Change 5 to the number of times you want to loop
+
+-- Infinite loop with delay
+while true do
     local name, version = funcs.getexecutorname()
     print('Result:', name, version)
+    
+    -- Delay for 5 seconds
+    local start = os.time()
+    repeat until os.time() > start + 5
 end
+
 funcs.identifyexecutor = funcs.getexecutorname
 funcs.http_request = getgenv().request or funcs.request
 funcs.getscripts = function()
